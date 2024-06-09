@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.devlucaswilliams.crud_angular_spring.entities.Course;
 
 @RestController
-@RequestMapping(value = "/courses")
+@RequestMapping(value = "api/courses")
 public class CourseController {
 	
 	@GetMapping
